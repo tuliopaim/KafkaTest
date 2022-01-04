@@ -24,7 +24,7 @@ var messageCount = 0;
 
 try
 {
-    while (true)
+    while (!cts.Token.IsCancellationRequested)
     {
         try
         {
