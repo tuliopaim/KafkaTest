@@ -19,8 +19,8 @@ try
                 "topico_teste",
                 new Message<Null, string> { Value = message });
 
-            Console.WriteLine($"Publicada {message} "+ 
-                              $"'Partition: {dr.Partition.Value} "+
+            Console.WriteLine($"Publicada {message} '"+ 
+                              $"Partition: {dr.Partition.Value} "+
                               $"| MessageNumber: {count}'\n");
         }
     }
